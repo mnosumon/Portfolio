@@ -16,7 +16,7 @@ const Profile = () => {
                   <h3>i'm a junior web developer</h3>
                 </div>
                 <div className="profile_description">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, delectus ab deserunt voluptatibus porro modi sequi possimus vel dicta aspernatur ducimus ipsa ratione eum perspiciatis provident assumenda iste aut! Quae enim inventore expedita iure ducimus dolorum maiores delectus, incidunt placeat.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, delectu al;dfjs d;lasfjkldasf</p>
                   <Link>View my projects</Link>
                 </div>
             </div>
