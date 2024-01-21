@@ -5,19 +5,23 @@ const Skill = () => {
   return (
     <section>
         <div className="skils">
-            <h2 className='section_heading'>Skills</h2>
-            <p className='skill_title'>I am mentioning  my conception of the following topics</p>
+            <div className="section_heading">
+                <h2>Skills</h2>
+                <p className='skill_title'>I am mentioning  my conception of the following topics</p>
+            </div>
+            
             <div className="skill_description">
-            <div class="progres-bar">
-        <ul>
-            <li class="at">AutoCad 2D</li>
-            <li class="atd">AutoCad 3D</li>
-            <li class="ht">HTML</li>
-            <li class="cs">CSS</li>
-            <li class="pb">Programing</li>
-            <li class="jv">Java</li>
-        </ul>
-    </div>
+                <ul className='skill_list'>
+                    <li className="skill_item">HTML</li>
+                    <li className="skill_item">JavaScript</li>
+                    <li className="skill_item">ReactJs</li>
+                    <li className="skill_item">ReduxJs</li>
+                </ul>
+                <ul className='skill_list'>
+                    <li className="skill_item">CSS</li>
+                    <li className="skill_item">Bootstrap</li>
+                    <li className="skill_item">TailwindCss</li>
+                </ul>
             </div>
         </div>
     </section>

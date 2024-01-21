@@ -1,6 +1,7 @@
 import React from 'react'
 import './profile.css'
 import { Link } from 'react-router-dom'
+import NuruddinPicture from '../../../src/assets/images/Nuruddin_standerd.png'
 
 const Profile = () => {
   return (
@@ -21,7 +22,7 @@ const Profile = () => {
             </div>
             <div className="profile_pictue">
                 <div className="profile_images">
-                  <img src="src/assets/images/Nuruddin Standerd.png" alt="picture" />
+                  <img src={NuruddinPicture} alt="picture" />
                 </div>
             </div>
         </div>

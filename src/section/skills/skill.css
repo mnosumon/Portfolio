@@ -1,23 +1,56 @@
 .skill_title{
     font-family: 'Inter', sans-serif;
-    color: #fff;
+    color: #999999;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
+.skill_description{
+    margin: 0 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.skill_list{
+    width: 100%;
 
-.progres-bar{
-    background-color: black;
+}
+.skill_item{
+    font-family: 'Inter', sans-serif;
+    color: #F0F0F0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.skill_item::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #979797;
+}
+.skill_item::after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #b42929;
+}
+
+/* .progres-bar{
     width: 700px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto 0;
     padding: 10px;
 }
 .progres-bar li{
-    color: white;
-    list-style-type: none;
-    margin: 50px 0;
-    font-size: 25px;
+    margin: 100px 0;
+    font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -25,29 +58,28 @@
 .progres-bar li::before{
     position: absolute;
     content: '';
-    top: calc(100% + 10%);
+    top: calc(100% + 10px);
     left: 0;
 
     width: 100%;
     height: 25px;
     background-color: chartreuse;
-    border-radius: 200px;
 }
 .progres-bar li::after{
     position: absolute;
     content: '';
-    top: calc(100% + 10%);
+    top: calc(100% + 10px);
     left: 0;
 
     width: 0%;
     height: 25px;
     background-color: rgb(132, 143, 122);
-    border-radius: 200px;
+    
 
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-delay: 0s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
     animation-direction: forward;
 }
@@ -59,49 +91,4 @@
         width: 95%;
         background-color: blueviolet;
     }
-}
-.progres-bar li.atd::after{
-    animation-name: atd;
-}
-@keyframes atd {
-    to{
-        width: 50%;
-        background-color: yellow;
-    }
-}
-.progres-bar li.ht::after{
-    animation-name: ht;
-}
-@keyframes ht {
-    to{
-        width: 80%;
-        background-color: rgb(194, 7, 47);
-    }
-}
-.progres-bar li.cs::after{
-    animation-name: cs;
-}
-@keyframes cs {
-    to{
-        width: 40%;
-        background-color: orangered;
-    }
-}
-.progres-bar li.pb::after{
-    animation-name: pb;
-}
-@keyframes pb {
-    to{
-        width: 60%;
-        background-color: rgb(7, 20, 209);
-    }
-}
-.progres-bar li.jv::after{
-    animation-name: jv;
-}
-@keyframes jv {
-    to{
-        width: 20%;
-        background-color: rgb(7, 125, 194);
-    }
-}
+} */
