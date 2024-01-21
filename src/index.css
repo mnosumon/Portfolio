@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #e2e8f0;
+}
+a{
+  text-decoration: none;
+  color: #E1E1E1;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+}
+ul, ol{
+  list-style-type: none;
+}
+.container{
+  background: url('src/assets/images/Portfolio.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1320px;
+  margin: 0 auto;
+  color: #FFF;
+  padding: 10px;
+}
+
+/*========================== Common class ================= */
+
+.section_heading{
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+/*font-family: 'Inter', sans-serif; */
+

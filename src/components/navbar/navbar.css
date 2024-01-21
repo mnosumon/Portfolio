@@ -1,0 +1,42 @@
+
+.logo_image{
+    display: block;
+    height: 70px;
+    width: 70px;
+}
+.logo_image img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_logo h2{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.nav_item a{
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.nav_item a:hover{
+    color: #000;
+    background: #FFF;
+}
+  
