@@ -1,7 +1,7 @@
 import React from 'react'
 import './profile.css'
 import { Link } from 'react-router-dom'
-import NuruddinPicture from '../../../src/assets/images/Nuruddin_standerd.png'
+import BannerImage from '../../../src/assets/images/banner.png'
 
 const Profile = () => {
   return (
@@ -22,7 +22,7 @@ const Profile = () => {
             </div>
             <div className="profile_pictue">
                 <div className="profile_images">
-                  <img src={NuruddinPicture} alt="picture" />
+                  <img src={BannerImage} alt="picture" />
                 </div>
             </div>
         </div>

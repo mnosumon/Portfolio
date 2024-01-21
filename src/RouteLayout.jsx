@@ -5,11 +5,12 @@ import Profile from './section/profile/Profile'
 import About from './section/about/About'
 import Education from './section/education/Education'
 import Skill from './section/skills/Skill'
+// import Background from '../src/assets/images/background.svg'
 
 const RouteLayout = () => {
   return (
     <section>
-        <div className="container">
+        <div className="container" style={{backgroundImage: `url("src/assets/images/background.svg")`}}>
             <Navbar/>
             <Profile/>
             <About/>

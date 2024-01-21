@@ -3,6 +3,7 @@ import './about.css'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaInstagram} from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import AboutMe from '../../../src/assets/images/aboutImage.png'
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
           <div className="about_wrapper">
             <div className="about_media">
               <div className="about_image">
-                <img src="src/assets/images/photo3.png" alt="" />
+                <img src={AboutMe} alt="" />
                 <div className="about_social">
                   <FaFacebookF className='about_icon'/>
                   <FaTwitter className='about_icon' />

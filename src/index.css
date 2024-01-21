@@ -20,7 +20,7 @@ ul, ol{
   list-style-type: none;
 }
 .container{
-  background: url('src/assets/images/Portfolio.jpg');
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
