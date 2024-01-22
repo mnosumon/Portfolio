@@ -6,6 +6,7 @@ import About from './section/about/About'
 import Education from './section/education/Education'
 import Skill from './section/skills/Skill'
 import Background from '../src/assets/images/background.svg'
+import Projects from './section/projects/projects'
 
 const RouteLayout = () => {
   return (
@@ -16,6 +17,7 @@ const RouteLayout = () => {
             <About/>
             <Education/>
             <Skill/>
+            <Projects/>
         </div>
     </section>
   )

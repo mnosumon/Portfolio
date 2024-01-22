@@ -70,6 +70,14 @@ const Skill = () => {
                             </div>
                         </div>
                     </div> 
+                    <div className="progress_item">
+                        <h3>AutoCad 2D & 3D Design</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_autoCad">
+
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>

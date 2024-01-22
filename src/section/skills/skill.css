@@ -90,3 +90,9 @@
 .progress_tailwind::after{
     content: '80%';
 }
+.progress_autoCad{
+    width: 90%;
+}
+.progress_autoCad::after{
+    content: '90%';
+}
