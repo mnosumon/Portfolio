@@ -11,17 +11,66 @@ const Skill = () => {
             </div>
             
             <div className="skill_description">
-                <ul className='skill_list'>
-                    <li className="skill_item">HTML</li>
-                    <li className="skill_item">JavaScript</li>
-                    <li className="skill_item">ReactJs</li>
-                    <li className="skill_item">ReduxJs</li>
-                </ul>
-                <ul className='skill_list'>
-                    <li className="skill_item">CSS</li>
-                    <li className="skill_item">Bootstrap</li>
-                    <li className="skill_item">TailwindCss</li>
-                </ul>
+                <div className="progress_wrapper">
+                    <div className="progress_item">
+                        <h3>HTML</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_html">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress_item">
+                        <h3>JavaScript</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_javaScript">
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="progress_item">
+                        <h3>ReactJs</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_react">
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="progress_item">
+                        <h3>ReduxJs</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_redux">
+
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="progress_wrapper">
+                    <div className="progress_item">
+                        <h3>CSS</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_css">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress_item">
+                        <h3>Bootstrap</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_bootstrap">
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="progress_item">
+                        <h3>TailwindCss</h3>
+                        <div className="progress">
+                            <div className="progress_bar progress_tailwind">
+
+                            </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
     </section>

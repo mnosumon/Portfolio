@@ -20,10 +20,10 @@ ul, ol{
   list-style-type: none;
 }
 .container{
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
   width: 1320px;
   margin: 0 auto;
   color: #FFF;
