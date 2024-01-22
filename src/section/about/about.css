@@ -17,15 +17,17 @@
     line-height: 26px;
 }
 .about_content a{
-    background: #e2e8f0;
     color: #262626;
-    padding: 8px 15px;
+    background-color: #ffbd39;
+    padding: 12px 20px;
     font-size: 18px;
     margin-top: 60px;
-    transition: all 0.5s ease;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 .about_content a:hover{
-    background: #979797;
+    color: #ffbd39;
+    background-color: #262626;
 }
 .about_media{
     width: 50%;

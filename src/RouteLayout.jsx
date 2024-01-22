@@ -7,6 +7,8 @@ import Education from './section/education/Education'
 import Skill from './section/skills/Skill'
 import Background from '../src/assets/images/background.svg'
 import Projects from './section/projects/projects'
+import Contact from './section/contacts/Contact'
+import Footer from './section/footer/Footer'
 
 const RouteLayout = () => {
   return (
@@ -18,6 +20,8 @@ const RouteLayout = () => {
             <Education/>
             <Skill/>
             <Projects/>
+            <Contact/>
+            <Footer/>
         </div>
     </section>
   )

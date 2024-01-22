@@ -20,7 +20,7 @@ const Projects = () => {
                             <img src={Agency} alt="AgencyPicture"/>
                         </div>
                         <div className="liveDemo">
-                            <Link to="https://agencybts.netlify.app/">Live Demo</Link>
+                            <Link >Live Demo</Link>
                         </div>
                     </div>
                     <div className="description">

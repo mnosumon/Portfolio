@@ -1,4 +1,7 @@
-
+#navbar{
+    margin: 0 50px;
+    padding-top: 10px;
+}
 .logo_image{
     display: block;
     height: 70px;

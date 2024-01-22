@@ -5,7 +5,7 @@ import Logo from '../../../src/assets/images/logo.png'
 
 const Navbar = () => {
   return (
-    <section>
+    <section id='navbar'>
         <div className="navbar">
             <div className="nav_wrapper">
                 <div className="nav_logo">
