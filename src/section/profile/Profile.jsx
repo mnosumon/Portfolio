@@ -16,7 +16,8 @@ const Profile = () => {
                   <h3>i'm a junior web developer</h3>
                 </div>
                 <div className="profile_description">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, delectu al;dfjs d;lasfjkldasf</p>
+                  <p>To establish myself as a Front-end Developer in different local, and international by offering the value/benefit of Brand, Visualization, and Promotion. Eager to contribute creativity and technical skills to dynamic projects through responsive and visually appealing web interfaces. Want to establish myself as a Sr. Web Developer within 4-5 years.
+                  </p>
                   <Link>View my projects</Link>
                 </div>
             </div>

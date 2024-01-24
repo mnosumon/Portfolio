@@ -52,6 +52,7 @@
 .profile_description a{
     text-decoration: underline solid gray;
     text-underline-offset: 5px;
+    color: #ffbd39;
 }
 .profile_pictue{
     width: 50%;
