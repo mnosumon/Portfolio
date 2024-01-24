@@ -14,50 +14,108 @@ const Projects = () => {
         <div className="projects">
             <h2 className='section_heading'>my projects</h2>
             <div className="project">
-                <div className="agency_wrapper">
-                    <div className="agency">
-                        <div className="agencyImage">
-                            <img src={Agency} alt="AgencyPicture"/>
+                {/* ====================Agency======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Agency} alt="Agency Picture"/>
                         </div>
                         <div className="liveDemo">
-                            <Link >Live Demo</Link>
+                            <div className="links">
+                                <Link to="https://agencybts.netlify.app/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/agency">Github</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="description">
                         <h4>Agency project build with HTML CSS Bootstrap Responsive</h4>
                     </div>
                 </div>
-                <div className="agency_wrapper">
-                    <div className="agency">
-                        <img src={Agency} alt="AgencyPicture" />
+                {/* ====================Blog======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Blog} alt="Blog Picture"/>
+                        </div>
+                        <div className="liveDemo">
+                            <div className="links">
+                                <Link to="https://mnosumon.github.io/menualResponsive/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/menualResponsive">Github</Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="description">
-                        <h4>Agency project build with HTML CSS Bootstrap Responsive</h4>
+                        <h4>Blog project build with HTML CSS Responsive</h4>
                     </div>
                 </div>
-                <div className="agency_wrapper">
-                    <div className="agency">
-                        <img src={Agency} alt="AgencyPicture" />
+                {/* ====================Finsweet======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Finsweet} alt="Finsweet Picture"/>
+                        </div>
+                        <div className="liveDemo">
+                            <div className="links">
+                                <Link to="https://mnosumon.github.io/finsweet/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/finsweet">Github</Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="description">
-                        <h4>Agency project build with HTML CSS Bootstrap Responsive</h4>
+                        <h4>Finsweet project build with HTML CSS </h4>
                     </div>
                 </div>
-                {/* <div className="agency">
-                    <img src={Blog} alt="BlogPicture" />
+                {/* ====================Foodtime======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Foodtime} alt="FoodTime Picture"/>
+                        </div>
+                        <div className="liveDemo">
+                            <div className="links">
+                                <Link to="https://mnosumon.github.io/FoodTime/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/FoodTime">Github</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>FoodTime project build with HTML CSS Bootstrap Responsive</h4>
+                    </div>
                 </div>
-                <div className="agency">
-                    <img src={Finsweet} alt="FisweetPicture" />
+                {/* ====================Resturent======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Resturent} alt="Resturent Picture"/>
+                        </div>
+                        <div className="liveDemo">
+                            <div className="links">
+                                <Link to="https://mnosumon.github.io/Resturent/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/Resturent">Github</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Resturent project build with HTML CSS Responsive</h4>
+                    </div>
                 </div>
-                <div className="agency">
-                    <img src={Foodtime} alt="foodtimePicture" />
+                {/* ====================Orebi======================== */}
+                <div className="project_wrapper">
+                    <div className="project_image_wrapper">
+                        <div className="projectImage">
+                            <img src={Orebi} alt="Orebi Picture"/>
+                        </div>
+                        <div className="liveDemo">
+                            <div className="links">
+                                <Link to="https://orebie.netlify.app/">Live Demo</Link>
+                                <Link to="https://github.com/mnosumon/orebi">Github</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Orebi project build with HTML React.Js JavaScript tailwindCss Responsive</h4>
+                    </div>
                 </div>
-                <div className="agency">
-                    <img src={Resturent} alt="ResturentPicture" />
-                </div>
-                <div className="agency">
-                    <img src={Orebi} alt="OrebiPicture" />
-                </div> */}
             </div>
         </div>
     </section>

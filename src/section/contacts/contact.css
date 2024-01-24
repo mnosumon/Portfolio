@@ -49,31 +49,35 @@
     background-color: #262626;
     color: #ffbd39;
 }
-
-.contact_icon{
-    width: 50%;
+.contact_icons{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 50px;
+    
 }
-.email_wrapper{
+
+.icon_wrapper{
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(14, 2, 2, 0.865);
     height: 80px;
     width: 100px;
     position: relative;
 }
-.email{
-    background-color: rgb(255, 165, 0, 0.2);
+.contact_links{
+    width: 250px;
+    background-color: #dbf7a64b;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    justify-content: center;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-.email_icon{
+
+
+.contact_icon{
     font-size: 40px;
     position: absolute;
     top: 50%;
@@ -81,16 +85,24 @@
     transform: translate(-50%, -50%);
     color: #ffbd39;
 }
-.email h3{
+.contact_links h3{
     font-family: 'Inter', sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: #ffbd39;
-    margin: 20px 0 8px;
+    color: #f0e3e3;
+    margin: 35px 0 8px;
 }
-.email h5{
+.contact_link{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #ffbd39;
+    transition: all 0.5s ease;
+}
+.contact_links:hover .contact_link{
+    text-decoration: underline;
+    color: gainsboro;
+}
+.text_trans{
+    text-transform: lowercase;
 }

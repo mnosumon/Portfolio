@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-.agency_wrapper{
+.project_wrapper{
     width: 380px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
@@ -15,7 +15,7 @@
     
 }
 
-.agency{
+.project_image_wrapper{
     height: 280px;
     width: 100%;
     overflow: hidden;
@@ -23,11 +23,11 @@
     position: relative;
     
 }
-.agencyImage{
+.projectImage{
     height: 100%;
     width: 100%;
 }
-.agency img{
+.project_image_wrapper img{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -38,27 +38,30 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(236, 231, 231, 0.5);
+    background-color: rgba(17, 15, 15, 0.7);
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
-.liveDemo a{
+.links{
     position: absolute;
-    display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.liveDemo a{
+    display: block;
     background-color: orange;
     font-family: 'Inter', sans-serif;
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 8px 0;
 }
-.agency:hover .liveDemo{
-    opacity: 1;
-
+.project_image_wrapper:hover .liveDemo{
+   opacity: 4;
 }
 
 
@@ -67,5 +70,5 @@
     color: #FFF;
     font-size: 22px;
     font-weight: 600;
-    margin: 25px 0;
+    margin: 40px 0 20px;
 }

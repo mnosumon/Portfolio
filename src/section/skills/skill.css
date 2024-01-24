@@ -43,56 +43,56 @@
     right: 0;
     position: absolute;
     font-family: 'Inter', sans-serif;
-    color: #F0F0F0;
+    color: #ffbd39;
     font-size: 20px;
     font-weight: 600;
     line-height: 32px;
 }
 .progress_html{
-    width: 90%;
+    width: 80%;
 }
 .progress_html::after{
-    content: '90%';
+    content: '(Intermediate)';
 }
 .progress_javaScript{
-    width: 65%;
+    width: 50%;
 }
 .progress_javaScript::after{
-    content: '65%';
+    content: '(Intermediate)';
 }
 .progress_react{
-    width: 75%;
+    width: 60%;
 }
 .progress_react::after{
-    content: '75%';
+    content: '(Intermediate)';
 }
 .progress_redux{
-    width: 35%;
+    width: 30%;
 }
 .progress_redux::after{
-    content: '35%';
+    content: '(Basic)';
 }
 .progress_css{
-    width: 85%;
+    width: 75%;
 }
 .progress_css::after{
-    content: '85%';
+    content: '(Intermediate)';
 }
 .progress_bootstrap{
-    width: 55%;
+    width: 50%;
 }
 .progress_bootstrap::after{
-    content: '55%';
+    content: '(Intermediate)';
 }
 .progress_tailwind{
     width: 80%;
 }
 .progress_tailwind::after{
-    content: '80%';
+    content: '(Intermediate)';
 }
 .progress_autoCad{
     width: 90%;
 }
 .progress_autoCad::after{
-    content: '90%';
+    content: '(Intermediate)';
 }

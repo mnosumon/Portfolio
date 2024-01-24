@@ -3,6 +3,7 @@ import './contact.css'
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { PiTelegramLogoLight } from "react-icons/pi";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
@@ -20,33 +21,46 @@ const Contact = () => {
                         <button type='submit' className='sandBtn'>Sand message</button>
                     </form>
                 </div>
-                <div className="contact_icon">
-                    <div className="email">
-                        <div className="email_wrapper">
+                <div className="contact_icons">
+                   {/* ===================Email===================== */}
+                    <div className="contact_links">
+                        <div className="icon_wrapper">
                             <Link className='email_icons'>
-                                <MdOutlineMail className='email_icon'/>
+                                <MdOutlineMail className='contact_icon'/>
                             </Link>
                         </div>
                         <h3>Email</h3>
-                        <h5>emnos124@gmail.com</h5>
+                        <h5><Link className='contact_link text_trans'>emnos124@gmail.com</Link></h5>
                     </div>
-                    <div className="email">
-                        <div className="email_wrapper">
+                    {/* ===================Messenger===================== */}
+                    <div className="contact_links">
+                        <div className="icon_wrapper">
                             <Link className='email_icons'>
-                                <RiMessengerLine className='email_icon'/>
+                                <RiMessengerLine className='contact_icon'/>
                             </Link>
                         </div>
                         <h3>Messenger</h3>
-                        <h5>Md Nuruddin Osman Sumon</h5>
+                        <h5><Link className='contact_link'>Md Nuruddin Osman Sumon</Link></h5>
                     </div>
-                    <div className="email">
-                        <div className="email_wrapper">
+                    {/* ===================Telegram===================== */}
+                    <div className="contact_links">
+                        <div className="icon_wrapper">
                             <Link className='email_icons'>
-                                <PiTelegramLogoLight className='email_icon'/>
+                                <PiTelegramLogoLight className='contact_icon'/>
                             </Link>
                         </div>
                         <h3>Telegram</h3>
-                        <h5>@Sumon2121</h5>
+                        <h5><Link className='contact_link'>@Sumon2121</Link></h5>
+                    </div>
+                    {/* ===================Twitter===================== */}
+                    <div className="contact_links">
+                        <div className="icon_wrapper">
+                            <Link className='email_icons'>
+                                <FaXTwitter className='contact_icon'/>
+                            </Link>
+                        </div>
+                        <h3>Twitter</h3>
+                        <h5><Link className='contact_link'>@NuruddinDev</Link></h5>
                     </div>
                 </div>
             </div>
