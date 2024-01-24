@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    overflow: hidden;
 }
 .prifile_content{
     width: 50%;
@@ -70,7 +71,7 @@
     object-fit: cover;
 }
 .profile_cv{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
 }
 .profile_cv a{
@@ -84,4 +85,34 @@
 .profile_cv a:hover{
     color: #ffbd39;
     background-color: #262626;
+}
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 100%;
+    }
+    .profile_heading span{
+        font-size: 16px;
+    }
+    .profile_heading h4{
+        font-size: 20px;
+    }
+    .profile_title h3{
+        font-size: 36px;
+    }
+    .profile_description p{
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .profile_images{
+        height: 430px;
+        width: 360px;
+    }
+    .profile{
+        gap: 20px;
+    }
+    .prifile_content {
+        width: 46%;
+    }
 }

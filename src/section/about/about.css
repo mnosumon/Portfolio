@@ -64,3 +64,29 @@
     align-items: center;
     justify-content: center;
 }
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .about{
+        max-width: 100%;
+        margin: 0 50px;
+    }
+    .about_wrapper {
+        gap: 30px;
+    }
+    .about_content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .about_content article {
+        text-align: justify;
+        width: auto;
+    }
+    .about_image {
+        height: 500px;
+        width: auto;
+    }
+    .about_media {
+        overflow: hidden;
+    }
+}

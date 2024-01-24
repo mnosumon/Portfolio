@@ -53,8 +53,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    gap: 50px;
-    
+    row-gap: 40px;
+    justify-content: space-evenly;
 }
 
 .icon_wrapper{
@@ -67,15 +67,19 @@
 .contact_links{
     width: 250px;
     background-color: #dbf7a64b;
-    margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 0px 0px 15px 15px rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
 }
-
+.contact_links:hover{
+    box-shadow: 0px 0px 15px 15px lightblue;
+}
 
 .contact_icon{
     font-size: 40px;
@@ -105,4 +109,10 @@
 }
 .text_trans{
     text-transform: lowercase;
+}
+
+/* ================================Respnsive========================== */
+
+@media screen and (max-width: 1024px){
+    
 }

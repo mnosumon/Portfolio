@@ -43,3 +43,10 @@ ul, ol{
 
 /*font-family: 'Inter', sans-serif; */
 
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+  .container{
+    max-width: 100%;
+  }
+}

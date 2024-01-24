@@ -12,7 +12,6 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
     border-radius: 20px;
-    
 }
 
 .project_image_wrapper{
@@ -71,4 +70,18 @@
     font-size: 22px;
     font-weight: 600;
     margin: 40px 0 20px;
+}
+
+/* ================================Respnsive========================== */
+
+@media screen and (max-width: 1024px) {
+    .project{
+        justify-content: space-evenly;
+        width: auto;
+        column-gap: 5px;
+        row-gap: 60px;
+    }
+    .project_wrapper{
+        width: 330px;
+    }
 }

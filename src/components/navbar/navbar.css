@@ -43,4 +43,25 @@
     color: #ffbd39;
     background: #262626;
 }
-  
+
+/* ================================Respnsive========================== */
+
+@media screen and (max-width: 1024px) {
+    .nav_item a{
+        padding: 7px 12px;
+    }
+    .nav_list{
+        gap: 20px;
+    }
+    .logo_image{
+        height: 65px;
+        width: 65px;
+    }
+    .nav_logo{
+        gap: 10px;
+    }
+    .nav_logo h2{
+        font-size: 28px;
+    }
+}
+ 

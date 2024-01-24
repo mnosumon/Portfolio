@@ -96,3 +96,17 @@
 .progress_autoCad::after{
     content: '(Intermediate)';
 }
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .skill_description {
+        gap: 50px;
+    }
+    .progress_bar::after{
+        top: 20px;
+        font-size: 18px;
+    }
+    .progress_item{
+        margin-bottom: 60px;
+    }
+}
