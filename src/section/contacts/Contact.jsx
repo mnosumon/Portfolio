@@ -40,7 +40,7 @@ const Contact = () => {
                             </Link>
                         </div>
                         <h3>Messenger</h3>
-                        <h5><Link className='contact_link'>Md Nuruddin Osman Sumon</Link></h5>
+                        <h5><Link className='contact_link messenger'>Md Nuruddin Osman Sumon</Link></h5>
                     </div>
                     {/* ===================Telegram===================== */}
                     <div className="contact_links">
