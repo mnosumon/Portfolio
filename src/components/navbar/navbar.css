@@ -44,7 +44,7 @@
     background: #262626;
 }
 
-/* ================================Respnsive========================== */
+/* ================================Large Medium========================== */
 
 @media screen and (max-width: 1024px) {
     .nav_item a{
@@ -54,14 +54,43 @@
         gap: 20px;
     }
     .logo_image{
-        height: 65px;
-        width: 65px;
+        height: 60px;
+        width: 60px;
     }
     .nav_logo{
         gap: 10px;
     }
     .nav_logo h2{
         font-size: 28px;
+    }
+}
+
+/* ================================Medium========================== */
+
+@media screen and (max-width: 768px){
+    #navbar{
+        margin: 0 25px;
+    }
+    .logo_image{
+        height: 50px;
+        width: 50px;
+    }
+    .nav_logo h2{
+        font-size: 24px;
+    }
+    .nav_list{
+        flex-direction: column;
+        gap: 20px;
+        background-color: aqua;
+        width: 150px;
+        align-items: center;
+    }
+    .nav_wrapper{
+        display: block;
+    }
+    .nav_menu{
+        display: flex;
+        justify-content: flex-end;
     }
 }
  

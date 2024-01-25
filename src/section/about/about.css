@@ -90,3 +90,26 @@
         overflow: hidden;
     }
 }
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    .about{
+        margin: 0 25px;
+    }
+    .about_media{
+        width: auto;
+    }
+    .about_image{
+        height: 520px;
+        width: 400px;
+    }
+    .about_content{
+        width: auto;
+    }
+    .about_wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .about_content a{
+        margin-top: 30px;
+    }
+}

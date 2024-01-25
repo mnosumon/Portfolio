@@ -1,3 +1,6 @@
+#skill{
+    margin: 0 50px;
+}
 .skill_title{
     font-family: 'Inter', sans-serif;
     color: #999999;
@@ -6,7 +9,6 @@
     text-align: center;
 }
 .skill_description{
-    margin: 0 50px;
     display: flex;
     gap: 80px;
     justify-content: space-between;
@@ -108,5 +110,24 @@
     }
     .progress_item{
         margin-bottom: 60px;
+    }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    #skill{
+        margin: 0 25px;
+    }
+    .skill_description{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .progress_wrapper{
+        width: auto;
+    }
+    .progress_bar::after{
+        top: -36px;
+    }
+    .skill_title {
+        font-size: 14px;
     }
 }

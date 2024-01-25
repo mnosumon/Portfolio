@@ -136,3 +136,31 @@
         font-size: 13px;
     }
 }
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    #contact{
+        margin: 0 25px;
+    }
+    .contacts{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .contact_form{
+        width: 100%;
+    }
+    .form{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .sandBtn {
+        
+        margin-top: 0px;
+    }
+    .contact_icons{
+        width: 100%;
+        gap: 50px;
+    }
+    .contact_links{
+        width: 235px;
+    }
+}

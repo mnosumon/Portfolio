@@ -88,9 +88,6 @@
 }
 /* =======================Large Medium============================ */
 @media screen and (max-width: 1024px){
-    .container{
-        max-width: 100%;
-    }
     .profile_heading span{
         font-size: 16px;
     }
@@ -114,5 +111,35 @@
     }
     .prifile_content {
         width: 46%;
+    }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    #profile{
+        margin: 50px 25px 100px;
+    }
+    .prifile_content{
+        width: 100%;
+        order: 2;
+    }
+    .profile{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .profile_pictue{
+        width: 100%;
+        justify-content: center;
+        order: 1;
+    }
+    .profile_images{
+        height: 470px;
+        width: 390px;
+    }
+    .profile_description p{
+        text-align: justify;
+        width: auto;
+    }
+    .profile_title h3{
+        font-size: 34px;
     }
 }
