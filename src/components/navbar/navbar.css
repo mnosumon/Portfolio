@@ -88,9 +88,9 @@
     .nav_wrapper{
         display: block;
     }
-    .nav_menu{
+    /* .nav_menu{
         display: flex;
         justify-content: flex-end;
-    }
+    } */
 }
  
